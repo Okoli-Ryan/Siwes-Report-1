@@ -1,0 +1,52 @@
+body{
+    background: url("wolfie.png");
+    background-size: cover;
+    color: #999999;
+}
+
+.odd, .even{
+    text-space: 1em;
+}
+
+fieldset{
+    width: 50%;
+}
+table{
+    width: 30%;
+    height: 50px;
+    padding: 10px;
+}
+
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 300px;
+}
+
+input{
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #999999;
+    width: 100%;
+    background: none;
+
+}
+
+.submit{
+    border: 1px solid #839bcb;
+    height: 100px
+}
+
+.input_signup{
+    padding: 8px 0;
+    border-bottom: 1px solid #839bcb;
+    height: 50px;
+    outline: none;
+    cursor: pointer;
+}

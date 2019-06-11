@@ -1,0 +1,69 @@
+body{
+    background: url("wolfie.png");
+    background-size: cover;
+}
+
+.login_title{
+    color: white;
+    float: left;
+    border-bottom: 2px solid #839bcb;
+}
+
+.all{
+    position: fixed;
+    top: 25%;
+    left: 80%;
+    width: 200px;
+    height: 100px;
+    transform: translate(-50%, -50%);
+}
+
+.in{
+    margin: 8px 0;
+    padding: 8px 0;
+}
+
+.in{
+    outline: none;
+    background: none;
+    border: none;
+    color: white;
+    margin-left: 2px;
+    cursor: pointer;
+    border-bottom: 1px solid #839bcb;
+    border-radius: 5px;
+
+}
+
+.button{
+    border: 1px solid #839bcb;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.signin{
+    color: #839bcb;
+    background: none;
+    text-decoration: none;
+    font-size: 15px;
+    border: 1px solid #839bcb;
+    padding: 0.6em 39%;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 5px;
+    transition: all .6s;
+}
+
+.sub{
+    width: 100%;
+    height: 20px;
+    padding: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #839bcb;
+}
+
+.signin:hover{
+    background: #839bcb;
+    color: black;
+}
+
