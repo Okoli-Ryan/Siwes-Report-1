@@ -45,10 +45,7 @@ if($_POST) {
 
     $pdo = new PDO("mysql:host=$db_hostname;dbname=$db_database", $db_username, $db_password);
 
-    $check = $pdo->query(<<<_end
-select username from signup
-_end, 1
-    );
+    $check = $pdo->query("select username from signup", 1);
 
     foreach ($check as $item) {
         if ($username == $item['username']) {
